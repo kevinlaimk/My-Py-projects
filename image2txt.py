@@ -1,7 +1,8 @@
 import pyautogui
 from PIL import Image
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\\users\\Kevin Lai\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
 import numpy as np
 
 # Capture the screenshot
